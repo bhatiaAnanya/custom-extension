@@ -1,0 +1,56 @@
+{
+    "siteProfile": {
+        "siteURL": "lb-veng5c.westus.cloudapp.azure.com",
+        "httpsTermination": "VMSS",
+        "thumbprintSslCert": "None",
+        "thumbprintCaCert": "None"
+    },
+    "moodleProfile": {
+        "version":"MOODLE_39_STABLE",
+        "dbName":"mdl39",
+        "dbUser":"azureadmin",
+        "dbUserAzure":"azureadmin@mysql-veng5c",
+        "dbPassword":"9#36^ng5csixgERCQ",
+        "adminPassword":"XLg5csixg,1*8",
+        "storageAccountName":"absveng5caf",
+        "storageAccountKey":"IwloPFaKlXdvQpLhZr9GsfrhJGICdaOwDpruJpbdlh16KttOc+fvP0GmR7atdqtCDhIAXM2gatE5xyfBw8kWhA==",
+        "storageAccountType":"Premium_LRS",
+        "redisDns":"redis-veng5c.redis.cache.windows.net",
+        "redisKey":"None",
+        "elasticVm1IP":"172.31.5.20",
+        "installO365pluginsSwitch":false,
+        "installObjectFsSwitch":false,
+        "installGdprPluginsSwitch":false,
+        "searchType":"none",
+        "azureSearchKey":"None",
+        "azureSearchNameHost":"azure-search-veng5c.search.windows.net",
+        "tikaVmIP":"none",
+        "syslogServer":"controller-vm-veng5c",
+        "webServerType":"apache",
+        "htmlLocalCopySwitch":true,
+        "isMigration":true
+        },
+    "dbServerProfile": {
+        "type":"mysql",
+        "fqdn":"mysql-veng5c.mysql.database.azure.com",
+        "adminLogin":"dbadmin",
+        "adminLoginAzure":"dbadmin@mysql-veng5c",
+        "adminPassword":"eveng5csixg*7PFIWB",
+        "mssqlDbServiceObjectiveName":"S1",
+        "mssqlDbEdition":"Standard",
+        "mssqlDbSize":"250GB"
+    },
+    "fileServerProfile": {
+        "type":"azurefiles",
+        "nfsVmName":"controller-vm-veng5c",
+        "glusterVmName": "gluster-vm-veng5c0",
+        "glusterVolName": "data",
+        "nfsByoIpExportPath": "",
+        "nfsHaLbIP": "172.31.2.100",
+        "nfsHaExportPath":"/drbd/data",
+        "fileServerDiskSize":100
+    },
+    "phpProfile": {
+        "phpVersion":"7.4"
+    }
+}
